@@ -12,10 +12,6 @@ const makerPage = async (req, res) => {
         return res.status(500).json({ error: 'Error retrieving domos!' });
     }
   };
-  
-  module.exports = {
-    makerPage,
-  };
 
 const makeDomo = async (req, res) => {
     if(!req.body.name || !req.body.age){

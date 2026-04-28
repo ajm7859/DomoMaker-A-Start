@@ -47,10 +47,18 @@ nav:nth-child(1) {
     background-color: #66bdff;
 }
 
+/*
+added extra width, as well as display, align-items, gap, and paddign
+in order to fit the new input for mood in the domo creation
+*/
 .domoForm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
     border: 2px solid #338acc;
     height: 35px;
-    width: 700px;
+    width: 800px;
     margin-top:0px;
     padding-top:10px;
     background-color: #55acee;
